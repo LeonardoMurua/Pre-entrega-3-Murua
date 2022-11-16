@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <img src="../img/logo-gym.jpg" width="200px" alt="Logo">
+            </div>
+
+            <h1 class="fondo-5"> Contacto </h1>
+
+            <ul>
+                <li> <a href="../index.html"> Inicio </a></li>
+                <li> <a href="./Elegituplan.html"> Elegí tu plan </a></li>
+                <li> <a href="./Servicios.html"> Servicios </a></li>
+                <li> <a href="./Sobrenos.html">Sobre nosotros </a></li>
+                <li> <a href="./Contacto.html"> Contacto </a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <main>
+            <section class="formulario">
+                <form action="">
+                    <fieldset>
+                        <legend>Formulario de Contacto</legend>
+                        
+                        <div>
+                            <label for="name">Nombre</label>
+                            <input type="text" name="name" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="lastname">Apellido</label>
+                            <input type="text" name="lastname" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="Teléfono">Número de teléfono</label>
+                            <input type="tel" name="Teléfono" placeholder="(Código de area) Número" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="mail" placeholder="direccion de email">Escribe tu mail</label>
+                            <input type="email" name="mail">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="Civil">Estado Civil</label>
+                            <input type="radio" value="Casado" name="civil">CASADO
+                            <input type="radio" value="Separadp" name="civil">SEPARADO
+                            <input type="radio" value="Soltero" name="civil">SOLTERO
+                            <input type="radio" value="Otro" name="civil">OTRO
+                        </div>
+                        <br>
+                        <div>
+                            <label for="nac">Selecciona la fecha de nacimiento</label>
+                            <input type="date" name="nac">
+                        </div>
+                        <br>
+                        <label for="coment">Escribe un mensaje</label><br>
+                        <textarea name="coment" id="" cols="30" rows="10" placeholder="Escribe tu comentario"></textarea>
+                        <div>
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Borrar">
+                        </div>
+                        <br>
+                    </fieldset>
+                </form>
+    
+            </section>
+        </main>
+
+    <footer> 
+        <h5> 2022 Brothers Gym. Diseñado por Leonardo Murua </h5>
+     </footer>
+</body>
+</html>
