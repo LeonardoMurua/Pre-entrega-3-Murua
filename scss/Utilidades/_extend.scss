@@ -1,0 +1,19 @@
+@mixin fondos {
+    border-radius: 30px;
+}
+
+.fondo-2 {
+    @include fondos;
+}
+  
+  .fondo-3 {
+    @include fondos; 
+}
+  
+  .fondo-4 {
+    @include fondos; 
+}
+  
+  .fondo-5 {
+    @include fondos; 
+}

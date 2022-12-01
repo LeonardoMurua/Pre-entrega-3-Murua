@@ -1,0 +1,17 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import "Utilidades/variables";
+@import "Utilidades/mixin";
+@import "Utilidades/extend";
+@import "html/index";
+
+div img{
+    @include medidas(200px);
+}

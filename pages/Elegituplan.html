@@ -4,50 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-- SEO -->
+    <meta name="description" content="Somos Brothers Gym, un gimnasio ubica en la ciudad de Cordoba Capital, creado y atendido por un grupo de amigos apasionados por el Bodybuilding, quienes te ayudaremos a lograr los resultados fisicos que siempre quisiste. Unete a nuestro centro de musculacion y te acompañaremos en tu objetivo.">
+    <meta name="keywords" content="Musculacion, Brothers Gym, Bodybuilding, Gimnasio, Gimnasios, Centro de Musculacion, Pesas, Mancuernas, Barras, Bancas, Suplementacion, Kinesiologia, Nutricion, Nutricion Deportiva, Psicologia, Psicologia Deportiva">
+
+    <!-- Link de CSS -->
     <link rel="stylesheet" href="../css/styles.css">
+
+    <!-- Link de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
     <title> Elegí tu plan </title>
 </head>
 <body>
-    <header>
-        <nav>
-            <div>
-                <img src="../img/logo-gym.jpg" width="200px" alt="Logo">
-            </div>
-
-            <h1 class="fondo-2"> Elegí tu plan </h1>
-
-            <ul>
-                <li> <a href="../index.html"> Inicio </a></li>
-                <li> <a href="./Elegituplan.html"> Elegí tu plan </a></li>
-                <li> <a href="./Servicios.html"> Servicios </a></li>
-                <li> <a href="./Sobrenos.html">Sobre nosotros </a></li>
-                <li> <a href="./Contacto.html"> Contacto </a></li>
-            </ul>
-        </nav>
-    </header>
+    <div>
+        <a href="../index.html"></a>
+        <img src="../img/logo-gym.jpg" width="200px" alt="Logo">
+    </div>
+    <div class="container-fluid">
+        <header class="row">
+            <h1 class=" cols-sm-6 col-md-4 bg-success"> Brothers Gym </h1>
+            <nav class="navbar navbar-expand-lg col-sm-6 col-md-8 color-menu">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html">Inicio</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./Elegituplan.html">Elegí tu plan</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="./Servicios.html">Servicios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="./Sobrenos.html" >Sobre Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="./Contacto.html" >Contacto</a>
+                      </li>
+                    </ul>
+                </div>
+              </nav>
+        </header>
+    </div>
     <main>
         
         <h3> Plan Anual</h3>
         
         <h4>
-        <p class="primerTexto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eveniet nobis vel, nemo porro maxime beatae similique quam ipsa quasi odit dicta eius, tenetur atque suscipit. Aut sunt voluptatum facilis.</p> 
+        <p class="primerTexto">Con este plan podras tener acceso libre a nuestro centro de musculacion todo el año, en cualquier horario y en todo momento, accediendo a nuestros servicios de Kinesiologia, Nutricion y Psicologia.</p> 
         </h4>
         
         <h3> Plan 6 meses </h3>
 
         <h4>
-            <p class="segundoTexto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, illum? Ex consequuntur qui aut sapiente dolore consectetur facere quod, dolorum magnam nisi repellendus provident est accusamus quia cumque, quis sunt?</p>
+            <p class="segundoTexto">Este plan consiste en un acceso libre a nuestro centro durante 6 meses, pudiendo utilizar los servicios que prestamos de Kinesiologia, Nutricion y Psicologia con importantes descuentos. </p>
         </h4>
 
         <h3> Plan Mensual </h3>
 
         <h4>
-            <p class="tercerTexto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat velit repudiandae, obcaecati corporis modi veritatis, animi, in dolor ad dolores omnis minima ratione possimus vel tenetur ullam recusandae deleniti. Debitis.</p>
+            <p class="tercerTexto">Este plan consiste en el acceso libre y en cualquier horario durante un mes pudiendo utilizar nuestro centro de musculacion. No incluye descuentos para nuestros servicios.</p>
         </h4>
     </main>
 
     <footer>
         <h5> 2022 Brothers Gym. Diseñado por Leonardo Murua </h5>
     </footer>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
